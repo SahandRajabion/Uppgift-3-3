@@ -1,1 +1,78 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+
+#container
+{
+width: 600px;
+margin: auto;
+background-color: #51473d;
+
+}
+
+#topbar
+
+{
+   text-align:right;
+   font-family:Times;
+   font-size:1.0em;
+   height:220px;
+   float:left;
+   width:600px;
+   background-image: url(../css/pics/coffey.jpg);
+   background-repeat: no-repeat;
+   background-position: 1px 16px;
+   color: #eae7d2;
+}
+
+#menu a
+{
+    display: none;
+}
+
+#menu{display:inline-block;
+height:16px;}
+
+#menu ul{ 
+    list-style:none;
+    height:30px;
+    margin: 5px -30px 5px -30px;
+}
+
+#menu li{
+    text-align: center;
+    position:relative;
+    float:left;
+}
+
+#menu .active a{
+    color:#888076;
+    background:#eae7d2;
+}
+
+#menu ul li a{
+    display:block;
+    font-family:verdana;
+    font-size: 14px;
+    color: #eae7d2;
+    margin-left:1px;
+    text-transform: capitalize;
+    background-color: #797066;
+    padding: 8px 15px 8px 15px;
+}
+
+#menu a:hover
+{
+    background-color:#968C83;
+}
+
+#content {
+    background: #eae7d2;
+    font-family:verdana;
+    font-size:0.8em;
+    color: #797066;
+    text-align:left;
+    line-height:20px;
+    border: 1px solid black;
+    padding:10px;
+    
+}
