@@ -3,25 +3,28 @@
 
 #container
 {
+background-color: #51473d;
 width: 600px;
 margin: auto;
-background-color: #51473d;
+
 
 }
 
 #topbar
 
 {
-   text-align:right;
-   font-family:Times;
-   font-size:1.0em;
-   height:220px;
-   float:left;
-   width:600px;
-   background-image: url(../css/pics/coffey.jpg);
-   background-repeat: no-repeat;
-   background-position: 1px 16px;
-   color: #eae7d2;
+height:220px;
+width:600px;
+font-family:Times;
+text-align:right;
+font-size:1.0em;
+color: #eae7d2;
+float:left;
+   
+background-image: url(../css/pics/coffey.jpg);
+background-repeat: no-repeat;
+background-position: 1px 16px;
+
 }
 
 #menu a
@@ -30,12 +33,13 @@ background-color: #51473d;
 }
 
 #menu{display:inline-block;
-height:16px;}
+height:32px;}
 
-#menu ul{ 
-    list-style:none;
+#menu ul
+{ 
     height:30px;
     margin: 5px -30px 5px -30px;
+   list-style:none;
 }
 
 #menu li{
@@ -50,14 +54,15 @@ height:16px;}
 }
 
 #menu ul li a{
-    display:block;
     font-family:verdana;
+    text-transform: capitalize;
+    display:block;
     font-size: 14px;
     color: #eae7d2;
     margin-left:1px;
-    text-transform: capitalize;
-    background-color: #797066;
     padding: 8px 15px 8px 15px;
+    background-color: #797066;
+    
 }
 
 #menu a:hover
@@ -66,13 +71,23 @@ height:16px;}
 }
 
 #content {
-    background: #eae7d2;
     font-family:verdana;
     font-size:0.8em;
-    color: #797066;
     text-align:left;
     line-height:20px;
     border: 1px solid black;
     padding:10px;
-    
+    background: #eae7d2;
+    color: #797066;
 }
+
+#maincontent
+{
+    width: 350px;
+    float:left;
+    border-right: 1px dashed gray;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+
