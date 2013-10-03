@@ -90,4 +90,13 @@ height:32px;}
     padding: 10px;
 }
 
+#maincontent h1
+{
+    font-family:times;
+    font-weight: lighter;
+    font-size: 2em;
+    color: #797066;
+    
+    
+}
 
