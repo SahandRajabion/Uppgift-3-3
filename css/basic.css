@@ -3,9 +3,9 @@
 
 #container
 {
-background-color: #51473d;
-width: 600px;
-margin: auto;
+background-color: #51473d;    /*Ger en brun bakgrundsfärg */
+width: 600px;                /* Sätter bredden */
+margin: auto;               /* Centrerar användningsytan */
 
 
 }
@@ -13,111 +13,133 @@ margin: auto;
 #topbar
 
 {
-height:220px;
-width:600px;
-font-family:Times;
-text-align:right;
-font-size:1.0em;
-color: #eae7d2;
-float:left;
+height:220px;              /*Header mått*/
+width:600px;              /*Header mått*/
+font-family:verdana;       /*Tecken-snitt header text*/
+text-align:right;       /*Placering av header texten*/
+font-size:0.6em;       /*Storleken på header texten*/
+color: #eae7d2;       /*Ger header texten en beige färg*/ 
+
    
-background-image: url(../css/pics/coffey.jpg);
-background-repeat: no-repeat;
-background-position: 1px 16px;
+background-image: url(../css/pics/coffey.jpg);  /*Ger headern en bakgrundsbild*/
+background-repeat: no-repeat;                  /*Gör så att bilden inte repeteras vid fall då bredden på headern är större än bilden*/     
+background-position: 1px 16px;                /*Placerar bakgrundsbilden*/
 
 }
 
 #menu a
 {
-    display: none;
+    display: none;        /*Döljer skip navigation*/
 }
 
-#menu{display:inline-block;
-height:32px;}
+#menu{
+    display:inline-block;
+    height:32px;
+}
 
 #menu ul
 { 
-    height:30px;
-    margin: 5px -30px 5px -30px;
-   list-style:none;
+    height:30px;                     /* Menyns height */
+    margin: 5px -30px 5px -30px;    /* Skapar marginal och placerar menyraden */
+   list-style:none;                /* Tar bort listans punktmarkeringar*/    
 }
 
 #menu li{
-    text-align: center;
-    position:relative;
-    float:left;
+    text-align: center;            /*Meny text centrerad*/
+    position:relative;            /*Meny position*/
+    float:left;                  /*Sätter menyn horisentalt*/
 }
 
-#menu .active a{
-    color:#888076;
-    background:#eae7d2;
+#menu .active a{      
+    color:#888076;              /*Sätter färgen på den aktiva länken*/
+    background:#eae7d2;        /*Sätter färgen på den aktiva länken*/      
 }
 
 #menu ul li a{
-    font-family:verdana;
-    text-transform: capitalize;
-    display:block;
-    font-size: 14px;
-    color: #eae7d2;
-    margin-left:1px;
-    padding: 8px 15px 8px 15px;
-    background-color: #797066;
+    font-family:verdana;                 /*Menyns text-stil*/
+    text-transform: capitalize;         /*Stor bokstav på texten*/
+    display:block;                     /*Gör meny blocken synliga*/
+    font-size: 14px;                  /*Bestämmer textens storlek*/
+    color: #eae7d2;                  /*Meny textens färg*/
+    margin-left:1px;                /*Skapar marginal i menyn*/             
+    padding: 8px 15px 8px 15px;    /*Skapar block avstånd mellan menyknapparna*/
+    background-color: #797066;    /* Menyknapparnas backgrundsfärg*/
     
 }
 
 #menu a:hover
 {
-    background-color:#968C83;
+    background-color:#968C83;   /*Skapar ny bakgrundsfärg vis musaktivitet över meny*/
 }
 
 #content {
-    font-family:verdana;
-    font-size:0.8em;
-    text-align:left;
-    line-height:20px;
-    border: 1px solid black;
-    padding:10px;
-    background: #eae7d2;
-    color: #797066;
+    font-family:verdana;            /* Sätter textstil på contents innehåll*/
+    font-size:0.8em;               /*Innehållets text storlek*/
+    text-align:left;              /*Placering av text*/
+    line-height:20px;            /*Radavstånd*/
+    border: 1px solid black;    /*Ram + ramfärg*/     
+    padding:10px;              /*Padding mellan ram och text*/
+    background: #eae7d2;      /*Contents backgrundsfärg*/
+    color: #797066;          /*Textens färg i content-delen*/
 }
 
 #maincontent
 {
-    width: 350px;
-    float:left;
-    border-right: 1px dashed gray;
-    margin-right: 10px;
+    width: 350px;               
+    float:left;                           /*Placerar innehållet i maincontent*/
+    border-right: 1px dashed gray;       /*Sätter upp en border mellan content texten*/
+    margin-right: 10px;                 /*Sätter marginal mellan border och text*/
     padding: 10px;
 }
 
-#maincontent h1
+#maincontent h1                       /*Behandlar rubriken i maincontent*/
 {
-    font-family:times;
-    font-weight: lighter;
-    font-size: 2em;
+    font-family:times;              /* Sätter textstil på rubriken*/
+    font-weight: lighter;          /* Ändrar från fet till normal stilnivå på rubriken*/    
 }
 
-img { float: left;
-padding-right:7px;
+img { float: left;               /* Ställer in bilden i förhållande med text*/
+padding-right:7px;              
 }
+
 #subcontent
 {
     margin:auto;
-    font-size:0.8em;
-    padding-top:15px;
+    font-size:0.8em;         /* Textstorlek på allt innehåll inom subcontent*/
+    padding-top:15px;       /* Skapar avstånd i text*/ 
 }
 
-#subcontent h1
+#subcontent h1            /*Behandlar rubriken i subcontent*/
 {
-font-family: times;
-font-size:1.6em;
-font-weight: lighter;
+font-family: times;      /* Sätter textstil på rubriken*/
+font-size:1.6em;        /*Textstorleken på rubriken*/
+font-weight: lighter;  /* Ändrar från fet till normal stilnivå på rubriken*/
 }
 
-#subcontent h2
+#subcontent h2               /*Behandlar andra rubriken i subcontent*/
 {
-font-family:times;
-font-weight:100;
+font-family:times;         /* Sätter textstil på rubriken*/
+font-weight:lighter;      /* Ändrar från fet till normal stilnivå på rubriken*/
 }
+
+#subcontent ul{margin:5px;}
+
+#subcontent ul li
+{ list-style: none;}      /* Tar bort listans punktmarkeringar*/
+
+
+#subcontent ul li a
+{color:#51473d; font-size:1.2em;}   /*Sätter länkarnas färg, samt textstorlek*/
+
+
+
+
+#bottomcontent{
+width:450px;      /*Storlek  på footer*/
+overflow:auto;   
+font-style:italic;   /*Textstil för footer-text*/
+font-size:0.8em;}   /*Storlek på texten inom bottomcontent*/
+
+
 
 
