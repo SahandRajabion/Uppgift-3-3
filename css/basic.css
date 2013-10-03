@@ -95,8 +95,9 @@ height:32px;}
     font-family:times;
     font-weight: lighter;
     font-size: 2em;
-    color: #797066;
-    
-    
+}
+
+img { float: left;
+padding-right:7px;
 }
 
