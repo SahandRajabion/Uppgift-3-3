@@ -100,4 +100,24 @@ height:32px;}
 img { float: left;
 padding-right:7px;
 }
+#subcontent
+{
+    margin:auto;
+    font-size:0.8em;
+    padding-top:15px;
+}
+
+#subcontent h1
+{
+font-family: times;
+font-size:1.6em;
+font-weight: lighter;
+}
+
+#subcontent h2
+{
+font-family:times;
+font-weight:100;
+}
+
 
